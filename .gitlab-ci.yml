@@ -1,0 +1,17 @@
+image: cypress/browsers:node14.17.0-chrome88-ff89
+
+stages:
+  - test
+
+e2e_tests:
+  stage: test
+  script:
+    - npm install
+    - npm run test
+  artifacts:
+    paths:
+      - cypress/screenshots
+      - cypress/videos
+      - cypress/results/*.xml
+    expire_in: 1 day
+    when: always

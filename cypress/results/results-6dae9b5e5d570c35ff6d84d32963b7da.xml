@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.631" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-04-07T19:52:35" tests="0" file="cypress/e2e/spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Sauce Demo UI Tests" timestamp="2024-04-07T19:52:35" tests="1" time="1.618" failures="0">
+    <testcase name="Sauce Demo UI Tests Logs in and verifies item sorting" time="1.583" classname="Logs in and verifies item sorting">
+    </testcase>
+  </testsuite>
+</testsuites>

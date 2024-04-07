@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.374" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-04-07T20:12:40" tests="0" file="cypress/e2e/spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Sauce Demo Sorting Tests" timestamp="2024-04-07T20:12:40" tests="2" time="4.361" failures="1">
+    <testcase name="Sauce Demo Sorting Tests &quot;before each&quot; hook for &quot;Verifies items are sorted by Name (A -&gt; Z)&quot;" time="0.000" classname="&quot;before each&quot; hook for &quot;Verifies items are sorted by Name (A -&gt; Z)&quot;">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-test=&quot;username&quot;]`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Sauce Demo Sorting Tests`" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-test="username"]`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Sauce Demo Sorting Tests`
+    at login (webpack://irene/./cypress/integration/TestFunction.js:3:5)
+    at Context.eval (webpack://irene/./cypress/e2e/spec.cy.js:79:10)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

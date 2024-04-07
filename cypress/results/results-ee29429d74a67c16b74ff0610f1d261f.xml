@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.618" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-04-07T20:38:16" tests="0" file="cypress/e2e/spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Sauce Demo UI Tests" timestamp="2024-04-07T20:38:16" tests="2" time="4.606" failures="0">
+    <testcase name="Sauce Demo UI Tests should verify items sorted by Name (A -&gt; Z)" time="1.308" classname="should verify items sorted by Name (A -&gt; Z)">
+    </testcase>
+    <testcase name="Sauce Demo UI Tests should verify items sorted by Name (Z -&gt; A)" time="0.976" classname="should verify items sorted by Name (Z -&gt; A)">
+    </testcase>
+  </testsuite>
+</testsuites>

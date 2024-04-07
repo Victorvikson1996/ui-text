@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.206" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-04-07T20:34:37" tests="0" file="cypress/e2e/spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Sauce Demo UI Tests" timestamp="2024-04-07T20:34:37" tests="2" time="6.193" failures="1">
+    <testcase name="Sauce Demo UI Tests &quot;after each&quot; hook for &quot;should verify items sorted by Name (A -&gt; Z)&quot;" time="0.000" classname="&quot;after each&quot; hook for &quot;should verify items sorted by Name (A -&gt; Z)&quot;">
+      <failure message="Timed out retrying after 4000ms: expected &apos;https://www.saucedemo.com/&apos; to include &apos;/index.html&apos;
+
+Because this error occurred during a `after each` hook we are skipping the remaining tests in the current suite: `Sauce Demo UI Tests`" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'https://www.saucedemo.com/' to include '/index.html'
+
+Because this error occurred during a `after each` hook we are skipping the remaining tests in the current suite: `Sauce Demo UI Tests`
+    at Context.eval (webpack://irene/./cypress/e2e/spec.cy.js:86:13)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

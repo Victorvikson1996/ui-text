@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.367" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-04-07T20:04:14" tests="1" file="cypress/e2e/spec.cy.js" time="0.364" failures="1">
+    <testcase name="An uncaught error was detected outside of a test" time="0.000" classname="An uncaught error was detected outside of a test">
+      <failure message="The following error originated from your test code, not from Cypress.
+
+  &gt; Cannot call `cy.request()` outside a running test.
+
+This usually happens when you accidentally write commands outside an `it(...)` test.
+
+If that is the case, just move these commands inside an `it(...)` test.
+
+Check your test file for errors.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure.
+
+https://on.cypress.io/cannot-execute-commands-outside-test" type="CypressError"><![CDATA[CypressError: The following error originated from your test code, not from Cypress.
+
+  > Cannot call `cy.request()` outside a running test.
+
+This usually happens when you accidentally write commands outside an `it(...)` test.
+
+If that is the case, just move these commands inside an `it(...)` test.
+
+Check your test file for errors.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure.
+
+https://on.cypress.io/cannot-execute-commands-outside-test
+    at ensureRunnable (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:137928:58)
+    at cy.<computed> [as request] (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:138413:7)
+    at Object.create (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:161180:19)
+    at context.describe.context.context (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:160899:27)
+    at createRunnable (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:145512:31)
+    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:145573:14)
+    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:110838:23)
+    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Object.gotValue (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:6476:18)
+    at Object.gotAccum (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:6465:25)
+    at Object.tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1701:18)
+    at _drainQueueStep (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2286:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
