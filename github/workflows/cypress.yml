@@ -9,19 +9,17 @@ on:
       - main
 
 jobs:
-  cypress-tests:
+  build:
     runs-on: ubuntu-latest
+    container:
+      image: cypress/included:8.7.0
+      options: --privileged
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: "14"
-
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm install
 
-      - name: Run Cypress Tests
-        run: npx cypress run
+      - name: Run Cypress tests
+        run: npm run test:cypress
